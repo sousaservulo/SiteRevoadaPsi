@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+    <?php include_once 'sendmail.php'; ?>
+
+    <title>Revoada PSI</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-deep-orange.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.css" />
+    <style>
+    .w3-tangerine {
+    font-family: "Tangerine", serif;
+    }
+    </style>
+
+    <body id="myPage">
+
+        <!-- Sidebar on click 
+        <nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
+        <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">whatsapp
+            <i class="fab fa-whatsapp"></i>
+
+        </a>
+        <a href="#" class="w3-bar-item w3-button">Link 1</a>
+        <a href="#" class="w3-bar-item w3-button">Link 2</a>
+        <a href="#" class="w3-bar-item w3-button">Link 3</a>
+        <a href="#" class="w3-bar-item w3-button">Link 4</a>
+        <a href="#" class="w3-bar-item w3-button">Link 5</a>
+        </nav>
+        -->
+        <!-- Navbar -->
+        <div class="w3-top">
+        <div class="w3-bar w3-theme-d2 w3-left-align">
+        <a class="w3-bar-item w3-button w3-hide-medium w3-hide-small w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+        <a href="#" class="w3-bar-item w3-button w3-deep-orange"><i class=" w3-margin-right"></i>Home</a>
+        <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Quem Somos</a>
+        <a href="#work" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Serviços</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contato</a>
+        <!--<a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a>-->
+        </div>
+
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class=" w3-tangerinew3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+            <a href="#team" class="w3-bar-item w3-button">Quem Somos</a>
+            <a href="#work" class="w3-bar-item w3-button">Serviços</a>
+            <a href="#contact" class="w3-bar-item w3-button">Contato</a>
+            <a href="#" class="w3-bar-item w3-button">Search</a>
+        </div>
+        </div>
+
+        <!-- Image Header -->
+        <div class="w3-display-container w3-animate-opacity">
+        <img src="img/revo1.jpg" alt="boat" style="width:100%;min-height:350px;max-height:600px;">
+        <div class="w3-text-deep-orange w3-padding w3-margin  w3-display-topleft ">
+            <H1 class="w3-tangerine w3-jumbo">Revoada Psi</H1>
+        </div>
+        </div>
+
+
+        <!-- Modal 
+        <div id="id01" class="w3-modal">
+        <div class="w3-modal-content w3-card-4 w3-animate-top">
+            <header class="w3-container w3-teal w3-display-container"> 
+            <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
+            <h4>Oh snap! We just showed you a modal..</h4>
+            <h5>Because we can <i class="fa fa-smile-o"></i></h5>
+            </header>
+            <div class="w3-container">
+            <p>Cool huh? Ok, enough teasing around..</p>
+            <p>Go to our <a class="w3-text-teal" href="/w3css/default.asp">W3.CSS Tutorial</a> to learn more!</p>
+            </div>
+            <footer class="w3-container w3-teal">
+            <p>Modal footer</p>
+            </footer>
+        </div>
+        </div>
+
+
+
+
+
+        <!-- Team Container -->
+
+        <div class="w3-container w3-padding-64 w3-center" id="team">
+            <h2 class="w3-tangerine w3-jumbo">Revoada Psi</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores beatae sed, vel expedita <br> impedit dolorem vero sequi, omnis vitae amet id odit enim mollitia deleniti ab rem aliquam in! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur id quis, dolorem iusto quo non, amet beatae debitis blanditiis quibusdam ullam voluptatem expedita! Voluptates dolorum, sit officiis asperiores distinctio ad?</p>
+            <h3>Nossa Equipe</h3>
+            
+            <div class="w3-row"><br>
+            
+                <div class="w3-quarter">
+                    <img src="img/Brenda.png" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+                    <h3>Brenda Seabra</h3>
+                    <p>Psicóloga clínica</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde qui deleniti culpa quaerat consequuntur velit ab aperiam eaque quos! In dolor suscipit molestias voluptatum ducimus quasi aut minus aperiam error! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus doloribus sunt obcaecati excepturi praesentium, eligendi ullam earum tempore enim facere odio pariatur, nisi nesciunt minima asperiores, culpa sed dolorum aperiam!</p>
+                </div>
+                
+                <div class="w3-quarter">
+                <img src="img/kadja.png" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+                    <h3>Kadja Karen da Silva Silveira</h3>
+                    <p>Psicóloga clínica</p>
+                    <p> Psicóloga graduada pela Universidade Federal do Rio Grande do Norte (UFRN) com ênfase em Saúde e Práticas Clínicas.
+                        Atua na política de Assistência Social no interior do RN.
+                        Possui formação em Clínica Ampliada e Desenvolvimento Humano pelo Instituto Bem te vi.</p>
+                </div>
+                
+                <div class="w3-quarter">
+                        <img src="img/S1.png" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+                        <h3>Sinthya de Cássia Oliveira da Rocha</h3>
+                        <p>Psicóloga clínica</p>
+                        <p>Psicóloga, graduada pela Universidade Federal do Rio Grande do Norte (UFRN), com formação na ênfase Saúde e Práticas Clínicas.
+                            Experiência em métodos consensuais para solução de conflitos (TJRN) e pesquisa com população jovem em contexto de violência (OBIJUV - UFRN). Servidora efetiva SEMAS - Prefeitura Municipal de Parnamirim.</p>
+                </div>
+                
+                <div class="w3-quarter">
+                        <img src="img/Ronildo1.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+                        <h3>Ronildo Teixeira Coutinho</h3>
+                        <p>Psicólogo</p>
+                        <p>Psicólogo, graduado pela Universidade Federal do Rio Grande do Norte (UFRN), com formação na ênfase Saúde e Práticas Clínicas. Mestrando em Psicologia pela UFRN, membro do Laboratório de Pesquisa e Extensão em Neuropsicologia (LAPEN/UFRN). Cursa especialização em Neuropsicologia e Reabilitação Cognitiva pela IPB e está concluindo uma formação em Terapia Cognitivo-Comportamental. Tem experiência nos campos da Neuropsicologia, Psicologia da Saúde e Saúde Mental.
+                        </p>  </div>
+            
+            </div>
+        </div>
+
+        <!-- Work Row -->
+        <div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
+
+            <div class="w3-quarter">
+            <h2>Serviços</h2>
+            <p>Nosso objetivo é oferecer aos pacientes e familiares serviços em Psicologia e Neuropsicologia com excelência e humanidade, acompanhando os avanços e desenvolvimentos científicos na área e contribuir para a melhoria da saúde e qualidade de vidados nossos pacientes. Dispomos de atendimento individual para crianças, adolescentes, adultos e idosos,assim como psicoterapia com casais.</p>
+            </div>
+            
+            
+            <div class="w3-quarter">
+            <div class="w3-card w3-white">
+            <!-- <img src="/w3images/lights.jpg" alt="Lights" style="width:100%"> -->
+            <div class="w3-container">
+            <h3>Psicoterapia</h3>
+            <h4></h4>
+            <p> A psicoterapia é um tipo de terapia cuja finalidade é tratar os problemas psicológicos, tais como depressão, ansiedade, dificuldades de relacionamento, entre outros problemas de saúde mental.</p>
+            </div>
+            </div>
+            </div>
+        
+            
+            <div class="w3-quarter">
+            <div class="w3-card w3-white">
+            <!-- <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%"> -->
+                <div class="w3-container">
+                <h3>Acompanhamento terapêutico</h3>
+                <h4></h4>
+                <p>O Acompanhamento Terapêutico é um trabalho clínico que visa promover a autonomia e a reinserção social, bem como uma melhora na organização subjetiva do paciente, por meio da ampliação da circulação e da apropriação de espaços públicos e privados.</p>
+                </div>
+            </div>
+            </div> 
+
+            <div class="w3-quarter">
+                <div class="w3-card w3-white">
+                <!--<img src="/w3images/snow.jpg" alt="Snow" style="width:100%">-->
+                    <div class="w3-container">
+                        <h3>Avaliação Neuropsicologica</h3>
+                        <h4></h4>
+                        <p>é uma avaliação das funções mentais como a concentração, memória, raciocínio, organização de idéias, linguagem, cálculos, podendo ser utilizada, para a quantificação e qualificação dos sintomas envolvidos, ao passo que não costuma ser empregado qualquer dosagem sanguínea ou exames de imagem para comprovação ou descarte da grande maioria dos diagnósticos psiquiátricos. A avaliação neuropsicológica é baseada na aplicação de testes, escalas e questionários aprovados por estudos das comunidades científicas internacionais, sendo aplicado por um profissional especializado em Neuropsicologia.
+                    
+                            A avaliação neuropsicológica também pode ser utilizada para fins legais de documentação relacionados ao déficit destas funções cerebrais. É utilizada principalmente para auxiliar diagnóstico de TDAH – Transtorno do Déficit de Atenção e Hiperatividade, nas demências como Alzheimer e em jovens com dificuldade de aprendizagem.</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Container 
+        <div class="w3-container" style="position:relative">
+        <a onclick="w3_open()" class="w3-button w3-xlarge w3-circle w3-teal"
+        style="position:absolute;top:-28px;right:24px">+</a>
+        </div>
+        -->
+
+        <!-- Contact Container -->
+        <div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
+        <div class="w3-row">
+            <div class="w3-col m5">
+            <div class="w3-padding-16"><span class="w3-xlarge w3-border-deep-orange w3-bottombar">Fale Conosco</span></div>
+            <h3>CTC - Corporate Tower Center</h3>
+            <p></p>
+            <p><i class="fa fa-map-marker w3-text-deep-orange w3-xlarge"></i>  Av. Amintas Barros, 3700 - Lagoa Nova, Natal - RN</p>
+            <p><i class="fa fa-phone w3-text-deep-orange w3-xlarge"></i>  (xx) xxxxx-xxxx</p>
+            <p><i class="fa fa-envelope-o w3-text-deep-orange w3-xlarge"></i>  revoadapsi@gmail.com</p>
+            </div>
+            <div class="w3-col m7">
+                <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="/action_page.php" target="_blank">
+                <div class="w3-section">      
+                  <label>Nome</label>
+                  <input class="w3-input" type="text" name="Name" required>
+                </div>
+
+                <div class="w3-section">      
+                    <label>Telefone</label>
+                    <input class="w3-input" type="text" name="Name" required>
+                  </div>
+
+                <div class="w3-section">      
+                  <label>E-mail</label>
+                  <input class="w3-input" type="text" name="Email" required>
+                </div>
+                <div class="w3-section">      
+                  <label>Mensagem</label>
+                  <input class="w3-input" type="text" name="Message" required>
+                </div>  
+                <input class="w3-check" type="checkbox" checked name="Like">
+                <label>I Like it!</label>
+                <button type="submit" class="w3-button w3-right w3-theme">Send</button>
+                </form>
+            </div>
+        </div>
+        </div>
+
+        <!-- Image of location/map 
+        <img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%;">
+        -->
+        <!-- Footer -->
+        <footer class="w3-container  w3-theme-d1 w3-center w3-padding-24 w3-" >
+        <p class="w3-large">Revoada PSi©  2020  </p>
+        <p class="w3-medium">Feito por <a href="servulosousa@dev.br" target="_blank">Sérvulo Sousa</a></p>
+        <p class="w3-small">Utilizando <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+
+        <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+            <span class="w3-text w3-padding w3-teal w3-hide-small">me leve ao topo</span>   
+            <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+            <i class="fa fa-chevron-circle-up"></i></span></a>
+        </div>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <a href="https://wa.me/message/U3RQTT22JDGBP1" style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+            z-index:1000;" target="_blank">
+        <i style="margin-top:16px" class="fa fa-whatsapp"></i>
+        </a>
+        </footer>
+
+
+        <script>
+            // Script for side navigation
+            function w3_open() {
+            var x = document.getElementById("mySidebar");
+            x.style.width = "300px";
+            x.style.paddingTop = "10%";
+            x.style.display = "block";
+            }
+            
+            // Close side navigation
+            function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+            }
+            
+            // Used to toggle the menu on smaller screens when clicking on the menu button
+            function openNav() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else { 
+                x.className = x.className.replace(" w3-show", "");
+            }
+            }
+
+            //função abrir whatsapp
+            function chamaZap() {
+                window.open("https://wa.me/message/U3RQTT22JDGBP1");
+                }
+        </script>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"></script>
+
+    </body>
+</html>
